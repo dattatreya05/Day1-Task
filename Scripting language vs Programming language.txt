@@ -1,0 +1,41 @@
+B...$$Differences between scripting language vs programming language$$
+
+## Scripting language:
+1. Scripting language is a programming language supporting scripts written exclusively for a special runtime environment to automate a specific action/function execution.
+2. It is written in one language and interpreted within another program. For instance, JavaScript has to be incorporated within HTML, which the Internet browser will then interpret.
+3. It do not create create .exe executable files.
+4. In this design made to make coding easier and faster.
+5. In this code functins are easier as it requires only a few short and specific lines to be written.
+6. It is having two subcategories: Server-side scripting languages and client-side scripting languages.
+7. In the other hand, demand line-by-line conversion and require host.
+8. Scripting language is slower in speed.
+Examples:JavaScript, Perl, PHP, Python, Ruby, Rexx, GameMonkey, etc.,
+# Advantages:
+1. They’re free and open source. As a result, anyone from anywhere on the planet can use it and contribute to it.
+2. If you are a beginner, they are a great way to start with programming languages, as they are quite easy to learn and code.
+3. They require less memory because no executable file is created.
+4. They are portable i.e. can run on any operating system.
+# Disadvantages:
+1. Scripting languages are slow as they demand line-by-line conversion.
+2. The interpreter in scripting languages analyses each statement line by line during execution, hence there aren’t many improvements to make the code run faster.
+
+## Programming language:
+1. Programming language is a set of instructions that can be fed into a computer to achieve a specific output.
+2. They are compressed into smaller packages that do not need to be interpreted by another language or application.
+3. The code when compiled creates binary code executable files also known as .exe files that take memory.
+4. The design are made to make full-pledged code and software development easier.
+5. In this languages the development codes  are relatively difficult as many lines of code are required for a single function.
+6. They are divided into five subcategories: First generation, Second generation, Third generation, Fourth generation, and Fifth generation. 
+7. It use a compiler, it is a one-shot conversion. They are self-executable; they do not require a host.
+8. The programming languages speed are faster.
+Examples: C, C++, C#, Java, Basic, COBOL, and Pascal..etc.
+#Advantages:
+1. Programming languages are programmer-friendly. They are easy to write, debug and maintain.
+2. It provides a higher level of abstraction from machine languages.
+3. Less error-prone, easy to find and debug errors.
+4. Programming language results in better productivity and easy to learn.
+#Disadvantages:
+1. It takes additional translation times to translate the source to machine code.
+2. Programs are comparatively slower than low-level programs.
+3. Compared to scripting language, they are generally less memory efficient.
+4. Cannot communicate directly with the hardware. 

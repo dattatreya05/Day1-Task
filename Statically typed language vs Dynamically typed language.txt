@@ -1,0 +1,38 @@
+A....$$Differences between Statically typed language vs dynamically typed language$$
+
+# Statically typed language:
+1. A programmimg language is statically typed if the type of a variable is known at compile time.
+2. In this type of language, once a variable is assigned a type, it cannot be assigned to some other variable of a different type. If we try to do that compiler will raise some errors and we need to fix them. So hence, for a declared variable, the data type is fixed.
+EXamples: Java, C, C++, C#, Swift, Scala, Kotlin, Fortran, Pascal, Rust, Go, COBOL,..etc.
+3. In most of the typed languages, the programmer must specify what the data type of each variable is, just like we do in Java, C and C++.
+4. But in some other languages like Hascall, Scala, and Kotlin the type system have the in-built capability i.e.,which is called type interference to deduce the type of a variable from the code.
+5. Now we take some example to see how variable is declared in C language.
+                     int bus = 30;
+# In this example, we defined a variable name called "bus" and specified the type as int(integer value) and we gave it a value of 10. This how we declare variable in a statically-typed language like C. So in this case compiler can directly identify that the type of variable is int.
+# So if we try to change the type of this variable anywhere else in the program, it will cause an error and the compiler will notify the mistake. Let's see an example of this one.
+	     bus = "manali"
+# At this time compiler will catch the mistake and throw an error. We can't run the code without fixing this kind of errors.
+6. One great thing about statically typed language is that we will be able to fix the alot of errors even before even before running the program. Once we successfully compile the program, we don't need to worry about the any kind of syntax errors. The code will ready to be executed.
+7. Now the code is almost done, and the compiler knows what each data type is. Hence, it can produce an optimized machine code that uses less memory. So, the execution of the code will be faster compared to the dynamically-typed languages.
+8. Statically typed languages have better performance at run-time and are faster at run-time. It is because there is no need for type checking at run-time, and the code has already been translated.
+
+
+#Dynamically typed language:
+1.We call a language as dynamically-typed if type checking takes place while the program runs (run-time). In this type of language, there is no need to specify the data type of each variable while writing code
+2. It means that you can write pretty quickly since you do not have to specify types every time. Some languages do allow you to provide type information but do not require it.
+Examples: Python, Javascript, Ruby, Perl, PHP, R, Dart, Lua, Objective-C, etc
+3. A dynamically-typed language has the capability to identify the type of each variable during run-time. In these languages, variables are bound to objects at run-time using assignment statements.
+4. We do not need to declare the data types of variables before we use them. Let’s see an example using Python.
+	       bus = 30
+# It is possible to bind the same variables to objects of different types during the execution of the program. We can initialize a variable with a type of value, and later we can change the data type of the variable.
+	       bus = "manali"
+# In this case, the program will execute without any errors. Changing data types is allowed in dynamically typed language.
+5. Scripting languages are mostly dynamic, as there is no compiler to do static type-checking. However, there are chances where you may find yourself searching for a bug that is due to the interpreter misinterpreting the type of a variable.
+6. One advantage of dynamically-typed languages is that it is easy to write code without worrying about the type of variables. The lack of a separate compilation step implies that programmers don’t have to wait for the compiler to finish before they can test the changes in code.
+7. The dynamic objects are having some run-time type-information(RTTI). It can be helpful to implement some pretty cool features like dynamic dispatch, down-casting, late binding, reflection, etc.
+8. Dynamically typed languages are comparatively faster during development time and are more flexible.
+
+
+
+
+
